@@ -39,7 +39,7 @@ try:
     streamlit.error("Please select a fruit to get Information.")
   else:
     back_from_function=get_fruityvice_data(fruit_choice)
-    streamlit.dataframe(back_from_functtion)
+    streamlit.dataframe(back_from_function)
     
     #fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+fruit_choice)
     #streamlit.text(fruityvice_response.json())
